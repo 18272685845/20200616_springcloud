@@ -1,0 +1,7 @@
+spring:
+  profiles: eurekaTest
+#Eureka配置
+eureka:
+  client:
+    register-with-eureka: false #表示是否向eureka注册中心注册自己
+    fetch-registry: false #fetch-registry: false如果为false，则表示自己为注册中心
