@@ -28,7 +28,7 @@ eureka:
     service-url:
       defaultZone: http://localhost:7001/eureka/,http://localhost:7002/eureka/,http://localhost:7003/eureka/
   instance:
-    instance-id: springcloud-provider-dept8081 #修改Eureka上的默认描述信息
+    instance-id: springcloud-config-provider-dept8081 #修改Eureka上的默认描述信息
     # 失效eureka的自我保护机制
     # 配置自己向eureka去发送心跳的时间(单位是秒)
     lease-renewal-interval-in-seconds: 5
